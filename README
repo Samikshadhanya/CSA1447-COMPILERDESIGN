@@ -1,4 +1,3 @@
-
 # Compiler Design Laboratory
 
 A comprehensive collection of compiler design experiments covering lexical analysis, syntax analysis, semantic analysis, and code generation. This repository contains practical implementations of compiler components using LEX, YACC, and C programming, demonstrating the complete compilation process from source code to executable.
