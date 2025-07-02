@@ -1,63 +1,59 @@
-# Compiler Design Laboratory Experiments
+## Compiler Design Laboratory Experiments
 
 A comprehensive collection of compiler design experiments focused on lexical analysis, syntax analysis, predictive parsing, grammar transformations, and intermediate code generation. This repository includes practical implementations that bridge theoretical concepts and real-world compiler construction.
 
 ---
 
-## 📌 Project Overview
+### Project Overview
 
-This project showcases fundamental principles of **compiler design** through hands-on implementation in C and Lex. The experiments span lexical analyzers, parsing techniques, grammar optimizations, and intermediate representations, forming the backbone of modern compiler construction.
-
----
-
-## 🔧 Key Technologies and Concepts
-
-* **Lexical Analysis** – Token recognition, whitespace handling, comment detection, identifier validation
-* **Grammar Processing** – Left recursion and left factoring elimination, FIRST and FOLLOW computation
-* **Parsing Techniques** – Recursive descent parsing, operator precedence parsing, shift-reduce parsing
-* **Intermediate Code Generation** – Three-address code (TAC), backend compiler logic
-* **Symbol Table Management** – Symbol handling and manipulation techniques
-* **Lex Programming** – Automating scanners for source code pattern recognition
+This project demonstrates fundamental principles of compiler design through hands-on implementation in C and Lex. The experiments span lexical analyzers, parsing techniques, grammar optimizations, and intermediate representations—forming the backbone of modern compiler construction.
 
 ---
 
-## 🧪 Experiment Categories
+### Key Technologies and Concepts
 
-### 1. **Lexical Analysis**
+- Lexical Analysis – Token recognition, whitespace handling, comment detection, identifier validation
+- Grammar Processing – Left recursion and left factoring elimination, FIRST and FOLLOW computation
+- Parsing Techniques – Recursive descent parsing, operator precedence parsing, shift-reduce parsing
+- Intermediate Code Generation – Three-address code (TAC), backend compiler logic
+- Symbol Table Management – Symbol handling and manipulation techniques
+- Lex Programming – Automating scanners for source code pattern recognition
 
+---
+
+### Experiment Categories
+
+**1. Lexical Analysis**  
 Designing scanners to recognize tokens, comments, identifiers, operators, and whitespace using C and Lex. These form the first phase of a compiler pipeline.
 
-### 2. **Grammar and Parsing**
-
+**2. Grammar and Parsing**  
 Implementations for computing FIRST and FOLLOW sets, eliminating ambiguities in grammars, and applying top-down or bottom-up parsing strategies.
 
-### 3. **Syntax and Code Generation**
+**3. Syntax and Code Generation**  
+Generation of recursive descent parsers, operator precedence parsers, shift-reduce parsers, and intermediate representations like three-address code.
 
-Generation of recursive descent parsers, operator precedence parsers, shift-reduce parsers, and intermediate representations like TAC.
-
-### 4. **Lex Programs**
-
+**4. Lex Programs**  
 Advanced Lex scripts that analyze C programs and structured text files such as HTML, demonstrating automation of lexical analysis tasks.
 
 ---
 
-## 🎯 Learning Outcomes
+### Learning Outcomes
 
-Through this lab, learners gain hands-on experience in:
+By completing these experiments, students will gain practical experience with:
 
-* Designing lexical analyzers in C and Lex
-* Constructing predictive parsers for context-free grammars
-* Applying parsing techniques to validate syntax
-* Generating intermediate code from high-level language constructs
-* Managing symbol tables for compiler operations
-* Using LEX to automate scanning tasks across formats
+- Designing lexical analyzers using C and Lex
+- Constructing parsers and processing context-free grammars
+- Applying parsing strategies to validate syntax
+- Generating intermediate code from source code
+- Managing symbol tables for compiler components
+- Writing custom Lex programs for pattern recognition and analysis
 
 ---
 
-## 📁 Experiment Index
+### Experiment Index
 
-| Exp. No. | Title                                                                   |
-| -------- | ----------------------------------------------------------------------- |
+| Exp. No. | Description                                                             |
+|----------|-------------------------------------------------------------------------|
 | 1–6      | Lexical Analyzer (Identifiers, Comments, Operators, Spaces, Validation) |
 | 7–8      | FIRST() and FOLLOW() Set Computation                                    |
 | 9–10     | Grammar Transformation (Left Recursion & Left Factoring)                |
@@ -69,4 +65,19 @@ Through this lab, learners gain hands-on experience in:
 | 19–20    | LEADING() and TRAILING() Computation                                    |
 | 21–24    | Lex Programs (Word Count, Constants, Macros, HTML Tag Recognition)      |
 
+---
+
+### Source Material
+
+This repository is based on the **Compiler Design Laboratory Manual** from **Saveetha School of Engineering**, developed during February 2025. The repository includes documentation in the following files:
+
+- 13-02-2025.pdf  
+- 17-02-2025.pdf  
+- 18-02-2025.pdf  
+- 23-02-2025.pdf  
+- 24-02-2025.pdf  
+
+---
+
+> Each experiment reinforces core compiler design principles through code-based implementation and analysis, providing a solid foundation for understanding modern compiler construction.
 
