@@ -1,72 +1,72 @@
-#Compiler Design Laboratory – Hands-On Experiments
+# Compiler Design Laboratory Experiments
 
-A practical collection of compiler construction experiments designed to explore the complete compilation process—from source code to machine-level representation. This repository contains hands-on implementations of major compiler phases including lexical analysis, syntax analysis, semantic analysis, intermediate code generation, optimization, and target code generation using **LEX**, **YACC**, and **C programming**.
+A comprehensive collection of compiler design experiments focused on lexical analysis, syntax analysis, predictive parsing, grammar transformations, and intermediate code generation. This repository includes practical implementations that bridge theoretical concepts and real-world compiler construction.
 
-##📌 Project Overview
+---
 
-This laboratory curriculum offers experiential learning in compiler design, guiding students through each stage of the compilation pipeline. Using tools like LEX and YACC, students implement real-world components of a compiler such as tokenizers, parsers, symbol tables, and code generators.
+## 📌 Project Overview
 
-##🧠 Key Concepts and Technologies
+This project showcases fundamental principles of **compiler design** through hands-on implementation in C and Lex. The experiments span lexical analyzers, parsing techniques, grammar optimizations, and intermediate representations, forming the backbone of modern compiler construction.
 
-* **LEX** – Lexical analyzer generator for token recognition based on regular expressions
-* **YACC** – Parser generator for context-free grammar processing and syntax tree construction
-* **C Language** – Base programming language for implementing compiler logic
-* **Regular Expressions** – Token patterns for lexical recognition
-* **Context-Free Grammar (CFG)** – Syntax structure for programming languages
-* **Symbol Table** – Data structure for managing variables, types, and scopes
-* **Intermediate Code Generation** – Syntax-directed translation and three-address code
-* **Code Optimization** – Performance improvement through advanced optimization techniques
-* **Target Code Generation** – Producing low-level or assembly code with proper register handling
+---
 
-##📁 Laboratory Categories
+## 🔧 Key Technologies and Concepts
 
-###🔹 Lexical Analysis
+* **Lexical Analysis** – Token recognition, whitespace handling, comment detection, identifier validation
+* **Grammar Processing** – Left recursion and left factoring elimination, FIRST and FOLLOW computation
+* **Parsing Techniques** – Recursive descent parsing, operator precedence parsing, shift-reduce parsing
+* **Intermediate Code Generation** – Three-address code (TAC), backend compiler logic
+* **Symbol Table Management** – Symbol handling and manipulation techniques
+* **Lex Programming** – Automating scanners for source code pattern recognition
 
-* Design and implementation of lexical analyzers using **LEX**
-* Token identification for keywords, identifiers, literals, and operators
-* Error handling and symbol table integration
+---
 
-###🔹 Syntax Analysis
+## 🧪 Experiment Categories
 
-* Syntax tree construction using **YACC**
-* Context-free grammar parsing (top-down and bottom-up techniques)
-* Syntax error detection and recovery
+### 1. **Lexical Analysis**
 
-###🔹 Semantic Analysis
+Designing scanners to recognize tokens, comments, identifiers, operators, and whitespace using C and Lex. These form the first phase of a compiler pipeline.
 
-* Type checking and scope validation
-* Attribute grammar implementation
-* Syntax-directed translation for semantic rule enforcement
+### 2. **Grammar and Parsing**
 
-###🔹 Intermediate Code Generation
+Implementations for computing FIRST and FOLLOW sets, eliminating ambiguities in grammars, and applying top-down or bottom-up parsing strategies.
 
-* Generation of **Three-Address Code (TAC)**
-* Implementation of syntax-directed translation schemes
-* Intermediate representations for later optimization
+### 3. **Syntax and Code Generation**
 
-###🔹 Code Optimization
+Generation of recursive descent parsers, operator precedence parsers, shift-reduce parsers, and intermediate representations like TAC.
 
-* Basic optimization techniques such as:
+### 4. **Lex Programs**
 
-  * Constant folding
-  * Dead code elimination
-  * Loop optimization
-* Enhancing intermediate code performance
+Advanced Lex scripts that analyze C programs and structured text files such as HTML, demonstrating automation of lexical analysis tasks.
 
-###🔹 Target Code Generation
+---
 
-* Generating assembly-level or pseudo machine code
-* Instruction selection and register allocation
-* Low-level mapping of intermediate code
+## 🎯 Learning Outcomes
 
-##✅ How to Run
+Through this lab, learners gain hands-on experience in:
 
-1. Ensure LEX, YACC, and a C compiler (e.g., GCC) are installed
-2. Compile LEX and YACC files using the following steps:
+* Designing lexical analyzers in C and Lex
+* Constructing predictive parsers for context-free grammars
+* Applying parsing techniques to validate syntax
+* Generating intermediate code from high-level language constructs
+* Managing symbol tables for compiler operations
+* Using LEX to automate scanning tasks across formats
 
-   ```bash
-   lex filename.l
-   yacc -d filename.y
-   gcc lex.yy.c y.tab.c -o output
-   ./output
-   ```
+---
+
+## 📁 Experiment Index
+
+| Exp. No. | Title                                                                   |
+| -------- | ----------------------------------------------------------------------- |
+| 1–6      | Lexical Analyzer (Identifiers, Comments, Operators, Spaces, Validation) |
+| 7–8      | FIRST() and FOLLOW() Set Computation                                    |
+| 9–10     | Grammar Transformation (Left Recursion & Left Factoring)                |
+| 11       | Symbol Table Operations                                                 |
+| 12–13    | Recursive Descent & Predictive Parsing                                  |
+| 14–15    | Shift Reduce and Operator Precedence Parsing                            |
+| 16       | Three Address Code Generation                                           |
+| 17–18    | Backend Compiler Logic and File Analysis                                |
+| 19–20    | LEADING() and TRAILING() Computation                                    |
+| 21–24    | Lex Programs (Word Count, Constants, Macros, HTML Tag Recognition)      |
+
+
