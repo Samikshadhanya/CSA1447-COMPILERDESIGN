@@ -1,12 +1,12 @@
-# Compiler Design Laboratory – Hands-On Experiments
+#Compiler Design Laboratory – Hands-On Experiments
 
 A practical collection of compiler construction experiments designed to explore the complete compilation process—from source code to machine-level representation. This repository contains hands-on implementations of major compiler phases including lexical analysis, syntax analysis, semantic analysis, intermediate code generation, optimization, and target code generation using **LEX**, **YACC**, and **C programming**.
 
-## 📌 Project Overview
+##📌 Project Overview
 
 This laboratory curriculum offers experiential learning in compiler design, guiding students through each stage of the compilation pipeline. Using tools like LEX and YACC, students implement real-world components of a compiler such as tokenizers, parsers, symbol tables, and code generators.
 
-## 🧠 Key Concepts and Technologies
+##🧠 Key Concepts and Technologies
 
 * **LEX** – Lexical analyzer generator for token recognition based on regular expressions
 * **YACC** – Parser generator for context-free grammar processing and syntax tree construction
@@ -18,33 +18,33 @@ This laboratory curriculum offers experiential learning in compiler design, guid
 * **Code Optimization** – Performance improvement through advanced optimization techniques
 * **Target Code Generation** – Producing low-level or assembly code with proper register handling
 
-## 📁 Laboratory Categories
+##📁 Laboratory Categories
 
-### 🔹 Lexical Analysis
+###🔹 Lexical Analysis
 
 * Design and implementation of lexical analyzers using **LEX**
 * Token identification for keywords, identifiers, literals, and operators
 * Error handling and symbol table integration
 
-### 🔹 Syntax Analysis
+###🔹 Syntax Analysis
 
 * Syntax tree construction using **YACC**
 * Context-free grammar parsing (top-down and bottom-up techniques)
 * Syntax error detection and recovery
 
-### 🔹 Semantic Analysis
+###🔹 Semantic Analysis
 
 * Type checking and scope validation
 * Attribute grammar implementation
 * Syntax-directed translation for semantic rule enforcement
 
-### 🔹 Intermediate Code Generation
+###🔹 Intermediate Code Generation
 
 * Generation of **Three-Address Code (TAC)**
 * Implementation of syntax-directed translation schemes
 * Intermediate representations for later optimization
 
-### 🔹 Code Optimization
+###🔹 Code Optimization
 
 * Basic optimization techniques such as:
 
@@ -53,13 +53,13 @@ This laboratory curriculum offers experiential learning in compiler design, guid
   * Loop optimization
 * Enhancing intermediate code performance
 
-### 🔹 Target Code Generation
+###🔹 Target Code Generation
 
 * Generating assembly-level or pseudo machine code
 * Instruction selection and register allocation
 * Low-level mapping of intermediate code
 
-## ✅ How to Run
+##✅ How to Run
 
 1. Ensure LEX, YACC, and a C compiler (e.g., GCC) are installed
 2. Compile LEX and YACC files using the following steps:
